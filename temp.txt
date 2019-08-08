@@ -1,0 +1,34 @@
+=[
+    {
+      id:1001,
+      name:"LED TV",
+      brand:"sony",
+      price:2000.0  
+    },
+    {
+      id:1002,
+      name:"Microwave",
+      brand:"LG",
+      price:12000.0  
+    },
+    {
+      id:1003,
+      name:"SmartPhone",
+      brand:"Nokia",
+      price:15000.0  
+    }
+    ]
+
+
+
+
+
+
+addNewProduct(id,name,brand,price):Product{
+    let prod=new Product();
+    prod.id=id;
+    prod.name=name;
+    prod.brand=brand;
+    prod.price=price;
+      return prod;
+  }
