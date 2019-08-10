@@ -1,0 +1,16 @@
+
+<div class="container">
+    <form>
+        <div class="form-group">
+                <label for="num1">Number 1</label>
+                <input type="number" id="number1" class="form-control" name="number1" [(ngModel)]="a" required>
+        </div>
+
+        <div class="form-group">
+            <label for="num2">Number 2</label>
+            <input type="number" id="number2" class="form-control" name="number2" [(ngModel)]="b" required>
+    </div>
+
+        <button type="submit" class="btn btn-success" (click)="add()">Addition</button>
+    </form>
+</div>
